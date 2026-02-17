@@ -22,6 +22,7 @@ def on_message(client, userdata, msg):
 
     n2 = n + 1
     print(f"Received on {msg.topic}: {n} -> publishing {n2} to {PING_TOPIC}")
+    time.sleep(1)
     client.publish(PING_TOPIC, str(n2))
 
 if __name__ == "__main__":
