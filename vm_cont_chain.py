@@ -1,8 +1,10 @@
+#Tali Gankin
+#https://github.com/tgank/EE250_Lab4/tree/main 
 import paho.mqtt.client as mqtt
 import time
 
 USERNAME = "asfox"
-BROKER_IP = "172.20.10.2"
+BROKER_IP = "172.20.10.2" #my rpi not working so borrowed a friends
 PING_TOPIC = f"{USERNAME}/ping"
 PONG_TOPIC = f"{USERNAME}/pong"
 
