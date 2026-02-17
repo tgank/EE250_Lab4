@@ -1,3 +1,6 @@
+#Tali Gankin
+#https://github.com/tgank/EE250_Lab4/tree/main 
+
 """EE 250L Lab 04 Starter Code
 Run vm_sub.py in a separate terminal on your VM."""
 
